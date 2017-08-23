@@ -5,5 +5,4 @@ import javax.servlet.http.HttpServlet;
 @WebServlet(urlPatterns = {""})
 public class InicioServlet extends HttpServlet{
 
-	doget
 }

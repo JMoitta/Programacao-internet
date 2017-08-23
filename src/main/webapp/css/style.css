@@ -1,3 +1,11 @@
 .margin {
 	margin: 5px;
 }
+
+.row {
+	display: block;
+}
+
+.d-inline-block {
+	display: inline-block;
+}

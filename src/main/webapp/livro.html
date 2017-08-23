@@ -2,14 +2,29 @@
 <html>
 <head>
 	<title>Livraria</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<form action="">
-		<input placeholder="titulo">
-		<input placeholder="preço">
-		<select name="editora">
-			<option value="0"></option>
-		</select>
-	</form>
+	<div>
+		<ul>
+			<li><a href="livro.html">livro</a></li>
+			<li><a href="editora.html">editora</a></li>
+		</ul>
+	</div>
+	<div class="row">
+		<form class="d-inline-block" action="">
+			<input type="text" placeholder="titulo" required="required">
+			<input type="number" placeholder="preço" required="required">
+			<select name="editora" required="required">
+				<option value="0">editora</option>
+				<option value="0">fraz</option>
+				<option value="0">dses</option>
+				<option value="0">fdes</option>
+				<option value="0">ertd</option>
+			</select>
+			<input type="submit" value="Cadastrar">
+			<input type="reset" value="Limpar">
+		</form>
+	</div>
 </body>
 </html>
